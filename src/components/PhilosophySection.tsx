@@ -2,7 +2,7 @@ import { ArrowRight } from 'lucide-react';
 
 export default function PhilosophySection() {
   return (
-    <section className="py-32 bg-white">
+    <section className="py-32 bg-pink-50">
       <div className="max-w-6xl mx-auto px-6">
         <div className="grid md:grid-cols-2 gap-16 items-center">
           <div className="order-2 md:order-1 relative">
@@ -16,29 +16,29 @@ export default function PhilosophySection() {
           </div>
 
           <div className="order-1 md:order-2 space-y-8">
-            <h2 className="text-5xl md:text-6xl font-serif text-gray-900 leading-tight">
+            <h2 className="text-5xl md:text-6xl font-serif text-pink-900 leading-tight">
               What you eat<br />matters.
             </h2>
-            <p className="text-lg text-gray-700 font-light leading-relaxed">
+            <p className="text-lg text-pink-700 font-light leading-relaxed">
               We believe purity is everything. While others use vegetable fat, we use real butter
               and real milk. Every scoop is slow-crafted. We don't follow trends — we follow
               taste.
             </p>
             <div className="space-y-4 pt-4">
               <div className="flex items-start gap-4">
-                <div className="w-2 h-2 bg-amber-600 rounded-full mt-2"></div>
-                <p className="text-gray-700 font-light">100% Real Dairy Milk</p>
+                <div className="w-2 h-2 bg-pink-400 rounded-full mt-2"></div>
+                <p className="text-pink-700 font-light">100% Real Dairy Milk</p>
               </div>
               <div className="flex items-start gap-4">
-                <div className="w-2 h-2 bg-amber-600 rounded-full mt-2"></div>
-                <p className="text-gray-700 font-light">No Vegetable Oils</p>
+                <div className="w-2 h-2 bg-pink-400 rounded-full mt-2"></div>
+                <p className="text-pink-700 font-light">No Vegetable Oils</p>
               </div>
               <div className="flex items-start gap-4">
-                <div className="w-2 h-2 bg-amber-600 rounded-full mt-2"></div>
-                <p className="text-gray-700 font-light">Slow-Churned with Real Butter</p>
+                <div className="w-2 h-2 bg-pink-400 rounded-full mt-2"></div>
+                <p className="text-pink-700 font-light">Slow-Churned with Real Butter</p>
               </div>
             </div>
-            <button className="group inline-flex items-center gap-2 text-amber-700 font-light text-lg hover:gap-4 transition-all">
+            <button className="group inline-flex items-center gap-2 text-pink-700 font-light text-lg hover:gap-4 transition-all">
               See What's Inside
               <ArrowRight className="w-5 h-5" />
             </button>

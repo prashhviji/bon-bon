@@ -23,13 +23,13 @@ const businessTypes = [
 
 export default function BusinessTypesSection() {
   return (
-    <section className="py-32 bg-gradient-to-b from-amber-50/30 to-white" id="business-types">
+    <section className="py-32 bg-gradient-to-b from-pink-50/60 to-pink-100" id="business-types">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-12 sm:mb-16">
-          <h2 className="text-4xl sm:text-5xl md:text-6xl font-serif text-gray-900 mb-4 sm:mb-6">
+          <h2 className="text-4xl sm:text-5xl md:text-6xl font-serif text-pink-900 mb-4 sm:mb-6">
             Choose Your Format
           </h2>
-          <p className="text-lg sm:text-xl text-gray-700 font-light max-w-2xl mx-auto px-4 sm:px-6">
+          <p className="text-lg sm:text-xl text-pink-700 font-light max-w-2xl mx-auto px-4 sm:px-6">
             Three unique ways to bring the Bon Bon experience to your customers.
             Each format is designed to maximize your success while maintaining our quality standards.
           </p>
@@ -41,17 +41,17 @@ export default function BusinessTypesSection() {
             return (
               <div
                 key={index}
-                className="bg-white rounded-2xl p-6 sm:p-8 shadow-lg hover:shadow-2xl transition-all duration-500 group"
+                className="bg-pink-50 rounded-2xl p-6 sm:p-8 shadow-lg hover:shadow-2xl transition-all duration-500 group"
               >
                 <div className="mb-6">
-                  <Icon className="w-12 h-12 text-amber-600 group-hover:scale-110 transition-transform duration-500" />
+                  <Icon className="w-12 h-12 text-pink-400 group-hover:scale-110 transition-transform duration-500" />
                 </div>
-                <h3 className="text-2xl font-serif text-gray-900 mb-4">{type.title}</h3>
-                <p className="text-gray-700 mb-6 font-light">{type.description}</p>
+                <h3 className="text-2xl font-serif text-pink-900 mb-4">{type.title}</h3>
+                <p className="text-pink-600 mb-6 font-light">{type.description}</p>
                 <ul className="space-y-3">
                   {type.features.map((feature, idx) => (
-                    <li key={idx} className="text-gray-600 font-light flex items-center">
-                      <span className="w-2 h-2 bg-amber-400 rounded-full mr-3"></span>
+                    <li key={idx} className="text-pink-700 font-light flex items-center">
+                      <span className="w-2 h-2 bg-pink-400 rounded-full mr-3"></span>
                       {feature}
                     </li>
                   ))}

@@ -23,17 +23,20 @@ A modern, responsive website for Bon Bon Ice Cream, built with React, TypeScript
 ## Getting Started
 
 1. Clone the repository
+
 ```bash
 git clone https://github.com/prashhviji/bon-bon.git
 ```
 
 2. Install dependencies
+
 ```bash
 cd bon-bon
 npm install
 ```
 
 3. Run the development server
+
 ```bash
 npm run dev
 ```
@@ -43,6 +46,7 @@ npm run dev
 ## Build
 
 To build for production:
+
 ```bash
 npm run build
 ```

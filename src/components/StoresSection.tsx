@@ -25,13 +25,13 @@ const stores = [
 
 export default function StoresSection() {
   return (
-    <section className="py-32 bg-gradient-to-b from-white to-amber-50/30">
+    <section className="py-32 bg-gradient-to-b from-pink-50 to-pink-100/40">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-5xl md:text-6xl font-serif text-gray-900 mb-6">
+          <h2 className="text-5xl md:text-6xl font-serif text-pink-900 mb-6">
             Find your nearest scoop.
           </h2>
-          <p className="text-xl text-gray-700 font-light max-w-2xl mx-auto">
+          <p className="text-xl text-pink-700 font-light max-w-2xl mx-auto">
             Visit our 4 iconic outlets. Each is a piece of our legacy — where ice cream meets
             craftsmanship.
           </p>
@@ -41,7 +41,7 @@ export default function StoresSection() {
           {stores.map((store, index) => (
             <div
               key={index}
-              className="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500"
+              className="group bg-pink-50 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500"
             >
               <div className="aspect-[4/3] overflow-hidden">
                 <img
@@ -51,8 +51,8 @@ export default function StoresSection() {
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-serif text-gray-900 mb-2">{store.name}</h3>
-                <div className="flex items-start gap-2 text-gray-600 font-light">
+                <h3 className="text-xl font-serif text-pink-900 mb-2">{store.name}</h3>
+                <div className="flex items-start gap-2 text-pink-600 font-light">
                   <MapPin className="w-4 h-4 mt-1 flex-shrink-0" />
                   <p className="text-sm">{store.address}</p>
                 </div>
@@ -62,7 +62,7 @@ export default function StoresSection() {
         </div>
 
         <div className="text-center">
-          <button className="group inline-flex items-center gap-2 text-amber-700 font-light text-lg hover:gap-4 transition-all">
+          <button className="group inline-flex items-center gap-2 text-pink-700 font-light text-lg hover:gap-4 transition-all">
             View Locations
             <ArrowRight className="w-5 h-5" />
           </button>
